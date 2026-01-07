@@ -1,0 +1,60 @@
+# Python
+# Byte-code files
+__pycache__/
+*.pyc
+# PEP 582; used by e.g. PDM, Pyflow
+__pypackages__/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+dist/
+build/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.whl
+*.tar.gz
+
+# Installer logs
+pip-log.txt
+pip-delete-this-commit.txt
+
+# Unit test / coverage
+.coverage
+.tox/
+.mypy_cache/
+.pyre/
+.pytype/
+cover/
+
+# Editor / IDE
+# VS Code
+.vscode/
+# PyCharm / JetBrains (uncomment to ignore the whole folder)
+# .idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Miscellaneous
+*.log
+celerybeat-schedule
+celerybeat.pid
+
+target/
+dbt_packages/
+logs/
+
+# Sensitive files
+profiles.yml
