@@ -57,4 +57,4 @@ dbt_packages/
 logs/
 
 # Sensitive files
-profiles.yml
+# profiles.yml
